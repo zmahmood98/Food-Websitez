@@ -2,6 +2,8 @@ nav{
     background-color: #f4f4f4;
     padding: 20px;
     top: 106px;
+    justify-content: space-around;
+
 }
 
 nav ul{
@@ -19,3 +21,4 @@ nav li{
 nav li a{
     color: #4b4b4b;
 }
+
