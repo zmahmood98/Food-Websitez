@@ -22,3 +22,25 @@ nav li a{
     color: #4b4b4b;
 }
 
+footer h1 {
+    text-align: center;
+}
+
+
+.donutpl {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.donutplaces {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+}
+
+.donutplaces:hover{
+    position: relative;
+    top: -100px;
+}
