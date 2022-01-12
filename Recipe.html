@@ -9,192 +9,156 @@
     <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="stylesheet" href="style.css">
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
 </head>
 <body>
-</section>
-<nav class="nav">
-    <ul>
-        <li><a href="/index.html"> Home</a></li>
-        <li><a href="/Recipe.html"> Ingredients</a></li>
-        <li><a href="/Places.html"> Locations</a></li>
+    <nav class="nav">
+        <ul>
+            <li><a href="/index.html"> Home</a></li>
+            <li><a href="/Recipe.html"> Ingredients</a></li>
+            <li><a href="/Places.html"> Locations</a></li>
 
-    </ul>
-</nav>
-<hr>
-<main>
-    <article>
-        <h1 class="nes-text is-primary"> The Ingredients for Success!</h1>
-        <br>
-        <p> Donuts are generally made with sugar, milk, flour, eggs, love and you decide the rest! </p>
-
- 
+        </ul>
+    </nav>
+    <br>
+    <main>
+        <article>
+            <h1 class="nes-text is-primary"> The Ingredients for Success!</h1>
+            <br>
+            <p> Donuts are generally made with sugar, milk, flour, eggs, love and you decide the rest! </p>
+        </article>
         <section id="overlay">
-        <img
+            <img
             src="https://images.pexels.com/photos/179907/pexels-photo-179907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            width="400"
-            height="300"
-            alt="Donut Logo"
-            id="logo"
-        />
-        <hr />
-        <form action="submission.html" method="POST">
+            width="400" height="300" alt="Donut Logo" id="logo" />
+        <form>
             <h1 class="nes-text is-success">Create your donut!</h1>
             <section class="sugar">
-            <label for="amount">How much sugar do you want in your donut?</label>
-            <br />
-            <span>little</span>
-            <input
-                type="range"
-                name="amount"
-                id="amount"
-                value="3"
-                min="1"
-                max="5"
-            />
-            <span>full</span>
+                <label for="amount">How much sugar do you want in your donut?       
+                </label>
+                <br>
+                <span>little</span>
+                <input type="range" name="amount" id="amount" value="3" min="1" max="5"/>
+                <span>full</span>
             </section>
-            <hr />
+            <hr>
             <section class="toppings">
-            <span>What toppings would you like?</span>
-            <br />
-            <label>
-                <input
-                type="checkbox"
-                class="nes-checkbox"
-                name="topping"
-                id="jam"
-                value="jam"
-                checked
-                />
-                <span>Jam</span>
-            </label>
-            <br />
-            <label>
-                <input
-                type="checkbox"
-                class="nes-checkbox"
-                name="topping"
-                id="oreo"
-                value="oreo"
-                />
-                <span>Oreo</span>
-            </label>
-            <br />
-            <label>
-                <input
-                type="checkbox"
-                class="nes-checkbox"
-                name="topping"
-                id="cereal"
-                value="cereal"
-                />
-                <span>Cereal</span>
-            </label>
-            <br />
-            <label>
-                <input
-                type="checkbox"
-                class="nes-checkbox"
-                name="topping"
-                id="pink sprinkles"
-                value="pink sprinkles"
-                />
-                <span>Pink Sprinkles</span>
-            </label>
-            <br />
-            <label>
-                <input
-                type="checkbox"
-                class="nes-checkbox"
-                name="topping"
-                id="purple icing"
-                value="purple icing"
-                />
-                <span>Purple Icing</span>
-            </label>
-            <br />
-            <label>
-                <input
-                type="checkbox"
-                class="nes-checkbox"
-                name="topping"
-                id="multi-coloured sprinkles"
-                value="multi-coloured sprinkles"
-                />
-                <span>Multi-coloured Sprinkles</span>
-            </label>
+                <span>What toppings would you like?</span>
+                <br> 
+                <label>
+                    <input type="checkbox" class="nes-checkbox" name="topping" id="jam" value="jam" checked/> 
+                    <span>Jam</span> 
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" class="nes-checkbox" name="topping" id="oreo" value="oreo"/>
+                    <span>Oreo</span>
+                </label>
+                <br>
+                <label>
+                    <input
+                    type="checkbox"
+                    class="nes-checkbox"
+                    name="topping"
+                    id="cereal"
+                    value="cereal" />
+                    <span>Cereal</span>
+                </label>
+                <br>
+                <label>
+                    <input
+                    type="checkbox"
+                    class="nes-checkbox"
+                    name="topping"
+                    id="pink sprinkles"
+                    value="pink sprinkles"
+                    />
+                    <span>Pink Sprinkles</span>
+                </label>
+                <br>
+                <label>
+                    <input
+                    type="checkbox"
+                    class="nes-checkbox"
+                    name="topping"
+                    id="purple icing"
+                    value="purple icing"
+                    />
+                    <span>Purple Icing</span>
+                </label>
+                <br>
+                <label>
+                    <input
+                    type="checkbox"
+                    class="nes-checkbox"
+                    name="topping"
+                    id="multi-coloured sprinkles"
+                    value="multi-coloured sprinkles"
+                    />
+                    <span>Multi-coloured Sprinkles</span>
+                </label>
             </section>
-            <hr/>
+            <hr>
             <section class="sauce-selection">
                 <label for="sauce">What type of sauce would you like?</label>
                 <div class="nes-select is-success">
-                <select required id="sauce">
-                    <option value="" disabled selected hidden>Select...</option>
-                    <option value="0">Salted Caramel</option>
-                    <option value="1">Strawberry</option>
-                    <option value="2">Lemon-Blueberry</option>
-                </select>
+                    <select required id="sauce">
+                        <option value="" disabled selected hidden>Select...</option>
+                        <option value="0">Salted Caramel</option>
+                        <option value="1">Strawberry</option>
+                        <option value="2">Lemon-Blueberry</option>
+                    </select>
                 </div>
-                </section>
             </section>
-            <hr />
+            <hr>
             <section class="extra-info">
-            <label for="extra">Anything else you want to add?</label>
-            <br />
-            <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+                <label for="extra">Anything else you want to add?</label>
+                <br>
+                <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
             </section>
-            <hr />
+            <hr>
             <section class="submission">
-            <input type="submit" value="Submit" />
+                <input type="submit" value="Submit" />
             </section>
         </form>
+    </main>
+    <footer>
+        <section class="icon-list">
+            <h1>Feel free to contact us on social media to get a free donut!</h1>
+            <!-- twitter -->
+            <i class="nes-icon twitter is-large"></i>
+        
+            <!-- facebook -->
+            <i class="nes-icon facebook is-large"></i>
+        
+            <!-- instagram -->
+            <i class="nes-icon instagram is-large"></i>
+        
+            <!-- github -->
+            <i class="nes-icon github is-large"></i>
+        
+            <!-- google -->
+            <i class="nes-icon google is-large"></i>
+        
+            <!-- gmail -->
+            <i class="nes-icon gmail is-large"></i>
+        
+            <!-- linkedin -->
+            <i class="nes-icon linkedin is-large"></i>
+        
+            <!-- twitch -->
+            <i class="nes-icon twitch is-large"></i>
+        
+            <!-- youtube -->
+            <i class="nes-icon youtube is-large"></i>
+        
+            <!-- reddit -->
+            <i class="nes-icon reddit is-large"></i>
+        
+            <!-- whatsapp -->
+            <i class="nes-icon whatsapp is-large"></i>
         </section>
-
-    </article> 
-</main>
-<br>
-<br>
-<footer>
-    <section class="icon-list">
-        <h1>Feel free to contact us on social media to get a free donut!</h1>
-        <!-- twitter -->
-        <i class="nes-icon twitter is-large"></i>
-      
-        <!-- facebook -->
-        <i class="nes-icon facebook is-large"></i>
-      
-        <!-- instagram -->
-        <i class="nes-icon instagram is-large"></i>
-      
-        <!-- github -->
-        <i class="nes-icon github is-large"></i>
-      
-        <!-- google -->
-        <i class="nes-icon google is-large"></i>
-      
-        <!-- gmail -->
-        <i class="nes-icon gmail is-large"></i>
-      
-        <!-- linkedin -->
-        <i class="nes-icon linkedin is-large"></i>
-      
-        <!-- twitch -->
-        <i class="nes-icon twitch is-large"></i>
-      
-        <!-- youtube -->
-        <i class="nes-icon youtube is-large"></i>
-      
-        <!-- reddit -->
-        <i class="nes-icon reddit is-large"></i>
-      
-        <!-- whatsapp -->
-        <i class="nes-icon whatsapp is-large"></i>
-      </section>
-</footer>
+    </footer>
+    <br>
 </body>
 </html>
