@@ -1,3 +1,5 @@
+
+
 nav{
     background-color: #f4f4f4;
     padding: 20px;
@@ -44,3 +46,14 @@ footer h1 {
     position: relative;
     top: -100px;
 }
+
+.homer {
+    
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transform: scaleX(-1)
+} 

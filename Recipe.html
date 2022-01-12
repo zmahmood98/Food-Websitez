@@ -17,18 +17,17 @@
 <nav>
     <ul>
         <li><a href="/index.html"> Home</a></li>
-        <li><a href="/Recipe.html"> Recipe</a></li>
+        <li><a href="/Recipe.html"> Ingredients</a></li>
         <li><a href="/Places.html"> Locations</a></li>
 
     </ul>
 </nav>
-<br>
-<br></br>
-<<main>
+<hr>
+<main>
     <article>
-        <h1 class="nes-text is-primary"> Favourite recipe!!</h1>
+        <h1 class="nes-text is-primary"> The Ingredients for Success!</h1>
         <br>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore id, ea architecto totam mollitia quae reiciendis eaque numquam dignissimos dolorum assumenda a iusto, aut officiis! Excepturi, aut. Labore, esse perspiciatis.... </p>
+        <p> Donuts are generally made with sugar, milk, flour, eggs, love and you decide the rest! </p>
 
  
         <section id="overlay">
@@ -127,15 +126,18 @@
                 <span>Multi-coloured Sprinkles</span>
             </label>
             </section>
-            <hr />
+            <hr/>
             <section class="sauce-selection">
-            <label for="sauce">What type of sauce would you like?</label>
-            <input list="sauces" id="sauce" name="sauce" />
-            <datalist id="sauces">
-                <option value="Salted Caramel"></option>
-                <option value="Strawberry"></option>
-                <option value="Lemon-Blueberry"></option>
-            </datalist>
+                <label for="sauce">What type of sauce would you like?</label>
+                <div class="nes-select is-success">
+                <select required id="sauce">
+                    <option value="" disabled selected hidden>Select...</option>
+                    <option value="0">Salted Caramel</option>
+                    <option value="1">Strawberry</option>
+                    <option value="2">Lemon-Blueberry</option>
+                </select>
+                </div>
+                </section>
             </section>
             <hr />
             <section class="extra-info">
@@ -152,6 +154,8 @@
 
     </article> 
 </main>
+<br>
+<br>
 <footer>
     <section class="icon-list">
         <h1>Feel free to contact us on social media to get a free donut!</h1>
